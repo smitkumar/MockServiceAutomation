@@ -1,13 +1,13 @@
 {
     "request": {
         "method": "GET",
-        "url": "/v1/api/Fulfilment/FulfilmentOrder/OFS:GMO:Z100002062-1"
+        "url": "/v1/api/Fulfilment/FulfilmentOrder/OFS:GMO:Z1123456-1"
     },
     "response": {
         "status": 200,
         "jsonBody": {
    "fulfilmentOrder":{
-      "fulfilmentOrderId":"OFS:GMO:Z100002062-1",
+      "fulfilmentOrderId":"OFS:GMO:Z1123456-1",
       "deliveryOption":"Store_Collect",
       "expectedDeliveryDate":"2016-02-02T14:30:00+00:00",
       "expectedShipDate":"2016-02-01T14:30:00+00:00",
