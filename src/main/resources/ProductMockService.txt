@@ -1,0 +1,82 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/v2/products?tpnb=062321418&client_id=trn:tesco:cid:99e19c9f-c691-4949-8382-3a331fffe8b4:7316dbf9-58b7-4bc5-8d30-4c564d7533cc&fields=description&fields=gtin&fields=tpnb"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+   "products":[
+      {
+         "TPNB":"062321418",
+         "GTIN14":"05038061033175",
+         "standardisedDescription":"Russell Hobbs 15075 1.6L Jug Kettle - White"
+      },
+      {
+         "TPNB":"062321418",
+         "GTIN14":"06031061023149",
+         "standardisedDescription":"Russell Hobbs 15076 1.7L Jug Kettle - Black"
+      }
+   ],
+   "total":0,
+   "missingSet":[
+
+   ]
+},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/v2/products?tpnb=062321419&client_id=trn:tesco:cid:99e19c9f-c691-4949-8382-3a331fffe8b4:7316dbf9-58b7-4bc5-8d30-4c564d7533cc&fields=description&fields=gtin&fields=tpnb"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+   "products":[
+      {
+         "TPNB":"062321419",
+         "GTIN14":"05038061033177",
+         "standardisedDescription":"Russell Hobbs 7777 1.6L Jug Kettle - White"
+      }
+   ],
+   "total":0,
+   "missingSet":[
+
+   ]
+},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/v2/products?tpnb=062321420&client_id=trn:tesco:cid:99e19c9f-c691-4949-8382-3a331fffe8b4:7316dbf9-58b7-4bc5-8d30-4c564d7533cc&fields=description&fields=gtin&fields=tpnb"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+   "products":[
+      {
+         "TPNB":"062321420",
+         "GTIN14":"05038061033120",
+         "standardisedDescription":"Russell Hobbs 7777 1.6L Jug Kettle - White"
+      }
+   ],
+   "total":0,
+   "missingSet":[
+
+   ]
+},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

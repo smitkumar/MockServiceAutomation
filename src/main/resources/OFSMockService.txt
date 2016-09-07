@@ -1,0 +1,178 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/v1/api/Fulfilment/FulfilmentOrder/OFS:GMO:Z100002062-1"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+   "fulfilmentOrder":{
+      "fulfilmentOrderId":"OFS:GMO:Z100002062-1",
+      "deliveryOption":"Store_Collect",
+      "expectedDeliveryDate":"2016-02-02T14:30:00+00:00",
+      "expectedShipDate":"2016-02-01T14:30:00+00:00",
+      "finalExpectedDeliveryDate":"2016-02-02T14:30:00+00:00",
+      "shipNode":"WH_810",
+      "shipToAddress":{
+         "tescoLocationId":"5433",
+         "contact":{
+            "firstName":"",
+            "middleName":"",
+            "lastName":"",
+            "knownAs":"",
+            "mobile":"",
+            "dayPhone":"",
+            "eveningPhone":"",
+            "alternatePhone":""
+         },
+         "address":{
+            "addressLine1":"CHEPSTOW ROAD",
+            "addressLine2":"SOUTHPORT",
+            "addressLine3":"GWENT",
+            "addressLine4":"",
+            "city":"NEWPORT",
+            "state":"WALES",
+            "postCode":"NP19 9EZ",
+            "country":"GB",
+            "isCommercialAddress":"",
+            "gridRef":"",
+            "isPAFValidated":"",
+            "buildingTypeId":"",
+            "organizationName":""
+         }
+      },
+      "finalShipToAddress":{
+         "contact":{
+            "firstName":"Joanne",
+            "middleName":"",
+            "lastName":"Barber",
+            "knownAs":"Mrs",
+            "mobile":"07773578706",
+            "dayPhone":"01495775273",
+            "eveningPhone":"",
+            "alternatePhone":"",
+            "emailAddress":"spongnuts@aol.com"
+         },
+         "address":{
+            "addressLine1":"CHEPSTOW ROAD",
+            "addressLine2":"",
+            "addressLine3":"SOUTHPORT",
+            "addressLine4":"",
+            "city":"NEWPORT",
+            "state":"",
+            "postCode":"NP199EZ",
+            "country":"GB",
+            "isCommercialAddress":"",
+            "gridRef":"",
+            "isPAFValidated":"",
+            "buildingTypeId":"",
+            "organizationName":"NEWPORT CHPSTW RD EXP"
+         }
+      },
+      "orderLines":[
+         {
+            "lineNo":1,
+            "quantity":1,
+            "itemDesc":"Canon MG3650 Printer Black",
+            "catId":"557-3575",
+            "tpnb":"062321418",
+            "pod":"N"
+         }
+      ]
+   }
+},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/v1/api/Fulfilment/FulfilmentOrder/OFS:GMO:Z100002062-2"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+   "fulfilmentOrder":{
+      "fulfilmentOrderId":"OFS:GMO:Z100002062-2",
+      "deliveryOption":"Store_Collect",
+      "expectedDeliveryDate":"2016-02-02T14:30:00+00:00",
+      "expectedShipDate":"2016-02-01T14:30:00+00:00",
+      "finalExpectedDeliveryDate":"2016-02-02T14:30:00+00:00",
+      "shipNode":"WH_810",
+      "shipToAddress":{
+         "tescoLocationId":"5433",
+         "contact":{
+            "firstName":"",
+            "middleName":"",
+            "lastName":"",
+            "knownAs":"",
+            "mobile":"",
+            "dayPhone":"",
+            "eveningPhone":"",
+            "alternatePhone":""
+         },
+         "address":{
+            "addressLine1":"CHEPSTOW ROAD",
+            "addressLine2":"SOUTHPORT",
+            "addressLine3":"GWENT",
+            "addressLine4":"",
+            "city":"NEWPORT",
+            "state":"WALES",
+            "postCode":"NP19 9EZ",
+            "country":"GB",
+            "isCommercialAddress":"",
+            "gridRef":"",
+            "isPAFValidated":"",
+            "buildingTypeId":"",
+            "organizationName":""
+         }
+      },
+      "finalShipToAddress":{
+         "contact":{
+            "firstName":"Joanne",
+            "middleName":"",
+            "lastName":"Barber",
+            "knownAs":"Mrs",
+            "mobile":"07773578706",
+            "dayPhone":"01495775273",
+            "eveningPhone":"",
+            "alternatePhone":"",
+            "emailAddress":"spongnuts@aol.com"
+         },
+         "address":{
+            "addressLine1":"CHEPSTOW ROAD",
+            "addressLine2":"",
+            "addressLine3":"SOUTHPORT",
+            "addressLine4":"",
+            "city":"NEWPORT",
+            "state":"",
+            "postCode":"NP199EZ",
+            "country":"GB",
+            "isCommercialAddress":"",
+            "gridRef":"",
+            "isPAFValidated":"",
+            "buildingTypeId":"",
+            "organizationName":"NEWPORT CHPSTW RD EXP"
+         }
+      },
+      "orderLines":[
+         {
+            "lineNo":1,
+            "quantity":1,
+            "itemDesc":"Canon MG3651 Printer Black",
+            "catId":"557-3575",
+            "tpnb":"062321419",
+            "pod":"N"
+         }
+      ]
+   }
+},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+

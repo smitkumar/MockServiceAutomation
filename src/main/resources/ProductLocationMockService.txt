@@ -1,0 +1,78 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/V4/stores/6109/mapped-locations?productid=062321418"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+{ "productId": "062321418", "aisleCode": "46", "orientationCode": "L", "modSequence": "13", "shelfCode": "B", "productPosition": 1, "facing": 1 },
+{ "productId": "062321418", "aisleCode": " ", "orientationCode": " ", "modSequence": " ", "shelfCode": " ", "productPosition": " ", "facing": " " }
+],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/V4/stores/6109/mapped-locations?productid=062321419"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+{ "productId": "062321419", "aisleCode": "46", "orientationCode": "L", "modSequence": "13", "shelfCode": "B", "productPosition": 1, "facing": 1 }
+],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/V4/stores/6109/mapped-locations?productid=062321420"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+{ "productId": "062321420", "aisleCode": " ", "orientationCode": " ", "modSequence": " ", "shelfCode": " ", "productPosition": " ", "facing": " " }
+],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/V4/stores/6109/mapped-locations?productid=062321421"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+AND
+{
+    "request": {
+        "method": "GET",
+        "url": "/V4/stores/6109/mapped-locations?productid=062321422"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [{ "productId": "062321420", "aisleCode": "B", "orientationCode": "A", "modSequence": "0", "shelfCode": " ", "productPosition": " ", "facing": " " },
+        { "productId": "062321420", "aisleCode": "R", "orientationCode": "01", "modSequence": "N", "shelfCode": "B", "productPosition": " ", "facing": " " },
+        { "productId": "062321420", "aisleCode": " ", "orientationCode": " ", "modSequence": " ", "shelfCode": " ", "productPosition": " ", "facing": " " }],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

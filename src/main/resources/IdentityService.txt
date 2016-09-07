@@ -1,0 +1,43 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/v3/api/auth/oauth/v2/token"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+{
+  "access_token": "b77354e8-c835-4b54-b867-5e87953a5b1e",
+  "token_type": "Bearer",
+  "expires_in": 3600,
+  "refresh_token": "62a9ccd4-ee3e-4566-9504-9aaa596d98fc",
+  "scope": "oob",
+  "Claims": [
+    {
+      "claimType": "http://schemas.tesco.com/ws/2011/12/identity/claims/clientid",
+      "value": "trn:tesco:cid:99e19c9f-c691-4949-8382-3a331fffe8b4"
+    },
+    {
+      "claimType": "http://schemas.tesco.com/ws/2011/12/identity/claims/scope",
+      "value": "oob"
+    },
+    {
+      "claimType": "http://schemas.tesco.com/ws/2011/12/identity/claims/userkey",
+      "value": "trn:tesco:uid:uuid:32c67264-9401-3941-816f-2f5572bb79b2"
+    },
+    {
+      "claimType": "http://schemas.tesco.com/ws/2011/12/identity/claims/confidencelevel",
+      "value": "12"
+    },
+    {
+      "claimType": "http://schemas.microsoft.com/ws/2008/06/identity/claims/expiration",
+      "value": "1473144044"
+    }
+  ]
+}
+],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
